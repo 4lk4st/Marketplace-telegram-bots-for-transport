@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'bots_for_transport.wsgi.application'
 
 AUTH_USER_MODEL = 'users.User'
 
-DEVELOPMENT = env('DEVELOPMENT', default=False) == 'True'
+DEVELOPMENT = 'True'
 
 if DEVELOPMENT:
     DATABASES = {
